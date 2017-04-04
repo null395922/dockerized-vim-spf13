@@ -1,0 +1,1 @@
+docker build --rm -t penn201500/spf13-vim .
