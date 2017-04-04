@@ -372,11 +372,11 @@ set clipboard=unnamedplus
 
 "==========txtbrowser============="
 syntax on
-filetype plugin on 
+filetype plugin on
 au BufEnter *.txt setlocal ft=txt
 
- 
-" ======= taglist的设置,供txtbrowser使用 ======= " 
+
+" ======= taglist的设置,供txtbrowser使用 ======= "
 " TagList options
 let Tlist_Close_On_Select = 1 "close taglist window once we selected something
 let Tlist_Exit_OnlyWindow = 1 "if taglist window is the only window left, exit vim

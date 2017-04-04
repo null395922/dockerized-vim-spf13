@@ -3,7 +3,7 @@
 # install some software
 echo "-->to be install components..."
 apt-get update
-apt-get install curl make htop tree -y
+apt-get install curl make htop tree ctags -y
 # install vim8, support lua,python,ruby,perl
 apt-get install libncurses5-dev libgnome2-dev libgnomeui-dev \
     libgtk2.0-dev libatk1.0-dev libbonoboui2-dev \
@@ -31,4 +31,4 @@ make install
 # curl http://j.mp/spf13-vim3 -L -o - | sh
 curl https://raw.githubusercontent.com/penn201500/spf13-vim/3.0/bootstrap.sh -L -o - | sh
 
-echo "-->finnished..."
+echo "-->finished..."
