@@ -388,7 +388,7 @@ let Tlist_Process_File_Always = 1 "even without taglist window, create tags file
 let Tlist_Use_Right_Window = 1 "display taglist window on the right
 let Tlist_Display_Prototype = 1 "display full prototype instead of just function name
 
-let g:Tlist_Ctags_Cmd = 'C:/ctags.exe'
+" let g:Tlist_Ctags_Cmd = 'C:/ctags.exe'
 
 nnoremap <F5> :TlistToggle<cr>
 nnoremap <F6> :TlistShowPrototype<cr>
