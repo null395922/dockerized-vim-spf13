@@ -1,5 +1,5 @@
-FROM docker.io/ubuntu:latest
-
+#FROM docker.io/ubuntu:latest
+FROM docker.io/ubuntu:16.04
 MAINTAINER penn <penn201500@gmail.com>
 
 # Ensure UTF-8 locale
